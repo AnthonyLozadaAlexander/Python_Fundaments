@@ -10,4 +10,4 @@ print(a, b, c)
 
 print("")
 
-print(f"a es {a}, b es {b} y c es {c}")
+print(f"a es {a}, b es {b} y c es fkjdsihfdij {c}")

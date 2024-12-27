@@ -10,7 +10,7 @@ def Secuencia_fibonacci(n):
     #Inicializamos la secuencia con los primeros dos numeros
     secuencia = [0, 1]
     #Generamos la secuencia de Fibonacci
-    print("Paso 1: [0, 1]") # Para ver el paso a paso
+    print("Paso 1: [0, 1]gggg") # Para ver el paso a paso
     while len(secuencia) < n:
 
         siguiente = secuencia[-1] + secuencia[-2]

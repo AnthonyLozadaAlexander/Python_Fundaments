@@ -8,10 +8,11 @@ Resultado = a + b # Se realiza la suma de los valores ingresados y se almacena e
 
 print("El resultado de la suma de los valores es:",Resultado)
 
-print("")
-print("---------------------------------------------------------------------------------")
+print("\n---------------------------------------------------------------------------------")
 print("Tambien es posible realizar la suma de los valores de la siguiente manera: ")
 print("---------------------------------------------------------------------------------")
+
+print("----------------------------------------------------------------------------")
 
 print("Deme un valor 1: ")
 a1 = input()

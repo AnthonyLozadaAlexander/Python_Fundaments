@@ -10,5 +10,4 @@ print(a, b, c)
 
 print("")
 
-print(f"a es {a}, b es {b} y c es kspjoahihids gggggg{c}") #Aqui le puse cualquier cosa a c para que se pueda ver que se
-# puede poner cualquier cosa en el repositorio
+print(f"a es {a}, b es {b} y c es {c}")

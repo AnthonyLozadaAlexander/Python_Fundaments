@@ -1,4 +1,3 @@
-from contextlib import nullcontext
 
 On = True
 Tarjeta = 0
@@ -10,12 +9,12 @@ while On:
     name = str(input("Ingrese su nombre: "))
     pago = float(input("Ingrese el monto a pagar: "))
 
-    if name == nullcontext or name == "":
+    if name == "" or name.strip() == "":
         print("El nombre no puede estar vacio")
         Datos = "Incorrectos"
 
-    elif pago == nullcontext or pago < 0:
-        print("El monto a pagar no puede estar vacio ni ser un numero negativo")
+    elif pago <= 0:
+        print("El monto a pagar no puede ser cero ni un numero negativo")
         Datos = "Incorrectos"
 
     else:

@@ -1,4 +1,3 @@
-
 On = True
 Tarjeta = 0
 pago = 0
